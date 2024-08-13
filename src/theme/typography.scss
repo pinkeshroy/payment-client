@@ -1,0 +1,29 @@
+@mixin fontSize {
+    --exSmallFont: 12px;
+    --smallFont: 14px;
+    --mediumFont: 16px;
+    --largeFont: 18px;
+    --midLargeFont: 20px;
+    --fontSize22px: 22px;
+    --exLargeFont: 24px;
+    --fontSize28px: 28px;
+    --fontSize32px: 32px;
+    --mediumFontInrem: 1rem;
+    --midLargeFontInrem: 1.25rem;
+    --exLargeFontInrem: 1.5rem;
+}
+
+@mixin fontWeights {
+    --exSmallWeight: 100;
+    --smallWeight: 300;
+    --mediumWeight: 500;
+    --largeWeight: 700;
+    --exLargeWeight: 900;
+    --font-weight400: 400;
+    --font-weight600: 600;
+    --font-weight800: 800;
+}
+
+@mixin fontFamily {
+    --primary-font-family: "Poppins", sans-serif;
+}

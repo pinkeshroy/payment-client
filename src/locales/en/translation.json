@@ -1,0 +1,51 @@
+{
+  "greeting": "MBooking Hello!",
+  "featured-message": "Enjoy your favorite movies ...",
+  "auth": {
+    "sign-in": "Sign in",
+    "sign-up": "Sign up",
+    "confirm-otp": "Confirm OTP code",
+    "otp-instruction": "You just need to enter the OTP sent to the registered phone number",
+    "username-placeholder": "Enter Username",
+    "username-restriction": "Latin characters, no emoji/symbols"
+  },
+  "navigation": {
+    "home": "Home",
+    "search": "Search",
+    "profile": "Profile",
+    "ticket": "Ticket"
+  },
+  "buttons": {
+    "continue": "Continue",
+    "apply": "Apply",
+    "buy-ticket": "Buy Ticket",
+    "change-language": "Change language"
+  },
+  "labels": {
+    "now-playing": "Now playing",
+    "coming-soon": "Coming Soon",
+    "promo-discount": "Promo & Discount",
+    "movie-news": "Movie news"
+  },
+  "seats": {
+    "available": "Available",
+    "reserved": "Reserved",
+    "selected": "Selected"
+  },
+  "payment": {
+    "total": "Total",
+    "payment-history": "Payment history",
+    "order-id": "Order ID",
+    "discount-code": "Discount code"
+  },
+  "messages": {
+    "welcome-back": "Welcome back",
+    "ticket-qr-code-instruction": "Show this QR code to the ticket counter to receive your ticket"
+  },
+  "form": {
+    "language-selection": "Choose language",
+    "language-selection-prompt": "Which language do you want to use?",
+    "theme-settings": "Theme"
+  },
+  "languages": { "language": "English" }
+}

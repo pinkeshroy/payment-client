@@ -1,0 +1,53 @@
+{
+    "greeting": "MBooking नमस्ते!",
+    "featured-message": "अपनी पसंदीदा फिल्में देखें...",
+    "auth": {
+        "sign-in": "साइन इन करें",
+        "sign-up": "साइन अप करें",
+        "confirm-otp": "OTP कोड की पुष्टि करें",
+        "otp-instruction": "आपको केवल पंजीकृत फोन नंबर पर भेजे गए OTP को दर्ज करना है",
+        "username-placeholder": "यूजरनाम दर्ज करें",
+        "username-restriction": "लैटिन अक्षर, कोई इमोजी/चिन्ह नहीं"
+    },
+    "navigation": {
+        "home": "होम",
+        "search": "खोजें",
+        "profile": "प्रोफाइल",
+        "ticket": "टिकट"
+    },
+    "buttons": {
+        "continue": "जारी रखें",
+        "apply": "लागू करें",
+        "buy-ticket": "टिकट खरीदें",
+        "change-language": "भाषा बदलें"
+    },
+    "labels": {
+        "now-playing": "अब खेल रहा है",
+        "coming-soon": "जल्द आ रहा है",
+        "promo-discount": "प्रोमो और छूट",
+        "movie-news": "फिल्म समाचार"
+    },
+    "seats": {
+        "available": "उपलब्ध",
+        "reserved": "आरक्षित",
+        "selected": "चुना हुआ"
+    },
+    "payment": {
+        "total": "कुल",
+        "payment-history": "भुगतान इतिहास",
+        "order-id": "आदेश ID",
+        "discount-code": "छूट कोड"
+    },
+    "messages": {
+        "welcome-back": "वापसी पर स्वागत है",
+        "ticket-qr-code-instruction": "अपने टिकट को प्राप्त करने के लिए इस QR कोड को टिकट काउंटर पर दिखाएं"
+    },
+    "form": {
+        "language-selection": "भाषा चुनें",
+        "language-selection-prompt": "आप कौन सी भाषा उपयोग करना चाहते हैं?",
+        "theme-settings": "थीम"
+    },
+    
+     "languages": { "language": "हिन्दी" }
+
+}

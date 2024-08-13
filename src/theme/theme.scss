@@ -1,0 +1,32 @@
+@use "colors" as *;
+@use "typography" as *;
+
+@mixin commonThemeProperties {
+    @include fontSize();
+    @include fontWeights();
+    @include colors();
+    @include fontFamily();
+}
+
+html[data-theme="dark"] {
+    @include commonThemeProperties();
+    --primary-bg-color: var(--black-1000);
+    --secondary-bg-color: var(--gray-200);
+    --primary-text-color: var(--white-1000);
+    --secondary-text-color: var(--white-600);
+    --primary-button-color: var(--yellow-1000);
+    --primary-border-color: var(--gray-300);
+    --primary-box-shadow-color: var(--white-100);
+
+}
+
+html[data-theme="light"] {
+    @include commonThemeProperties();
+    --primary-bg-color: var(--white-1000);
+    --secondary-bg-color: var(--cultured-1000);
+    --primary-text-color: var(--black-1000);
+    --secondary-text-color: var(--black-600);
+    --primary-button-color: var(--yellow-1000);
+    --primary-border-color: var(--gray-300);
+    --primary-box-shadow-color: var(--black-100);
+}

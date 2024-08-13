@@ -1,0 +1,51 @@
+:root {
+    --border-color: #ddd;
+    --background-color: #1c1c1c;
+    --text-color: #fff;
+    --secondary-text-color: #aaa;
+    --rating-color: #f5c518;
+}
+
+.movie-card {
+    width: 310px;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    background: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.movie-poster {
+    width: 100%;
+    border-radius: 16px;
+    height: 410px;
+}
+
+.movie-details {
+    padding: 10px;
+}
+
+.movie-details h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 10px 0 5px;
+}
+
+.movie-details p {
+    font-size: 16px;
+    color: var(--secondary-text-color);
+    line-height: 24px;
+    font-weight: 400;
+
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    color: var(--rating-color);
+    gap: 4px;
+}
